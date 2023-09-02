@@ -3,8 +3,6 @@
 //Iterador que promedia las calificaciones de alumnos
 //Algo sencillo pero que incluye lo solicicitado
 
-
-
 //Definicion Variales
 let acumulador = 0;
 let promedio = 0;
