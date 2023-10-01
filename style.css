@@ -1,4 +1,5 @@
 
+/* Resset de CSS */
 *{
   margin: 0;
   padding: 0;
@@ -6,32 +7,102 @@
   font-family: 'Lato', sans-serif;
 }
 
+
 body{
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  margin-top: 0.5rem;
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(159, 252, 197);
   /*background:url(./imagenes/pizza-386717_640.jpg) no-repeat center center/cover;*/
+
 }
 
-/* Contenido */
+
 
 #contenedor {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh; /*altura minima del contenedor 80% dela ventana*/
-  width: 80vh;
-  max-width: 600px; /*su ancho maximo sera de 550px aun en pantalla grande*/
-  background-color: rgb(0, 0, 0);
-  border: 4px solid rgb(0, 38, 255);
+  justify-content: center; /*lo centra en el ccontenedor*/
+        /*align-items:start;*/
+  align-items:center;
+  
+        /*min-height: 85vh; /*altura minima del contenedor 80% dela ventana*/
+  /*width: 100vh;
+  max-width: 500px; /*su ancho maximo sera de 550px aun en pantalla grande*/
+  /*background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 38, 255);
+  border-radius: 3%;*/
+  
+  
+}
+
+fieldset {
+  /*margin-left: 1rem;*/
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  justify-content: center; /*justify-content: antes desactivado*/
+  align-items: start; /*antes star;*/
+  background-color: rgb(184, 179, 245);
+  
+  border: 1px solid rgb(195, 195, 197);
   border-radius: 3%;
 }
 
+h1{
+ 
+  color: rgb(0, 12, 180);
+ font-size: 2rem;
+ width: 100%; /*100% ancho de su contenedor*/
+ font-weight: bolder;
+
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+
+}
+
+.formularios_mayusculas{
+  text-transform: uppercase;
+  
+}
+#telefono{
+  
+  font-size: 12px;
+}
+
+.datos{
+  font-size: 12px;
+  
+}
+
+#abajo{
+  color:navy;
+  font-weight: bolder;
+}
+
+.btnform{
+  font-size: 1.5em;
+  color:  #000000;
+ }
+
+.btnform:hover{
+  background-color: rgb(0, 0, 0);
+  animation-duration: 2s;
+   color: rgb(255, 0, 200);
+}
+
+
+
+/*
 .operaciones {
   display: flex;
   flex-direction: column;
@@ -41,6 +112,13 @@ body{
  
 }
 
+label {
+  
+  margin-top: 2rem;
+  color: white;
+ font-size: 1rem;
+ justify-content: start;
+}
 
 h1{
   margin: 1rem;
@@ -48,9 +126,8 @@ h1{
  font-size: 2rem;
  width: 100%; /*100% ancho de su contenedor*/
 
-}
 
-.botones{
+/*.botones{
   background-color:orangered;
   font-size: 1.5rem;
   font-weight: bold;
@@ -70,8 +147,8 @@ h1{
 .botones:hover{
   background-color: darkorange;
   animation-duration: 2s;
-   color: blue;
-}
+   color: blue;}*/
+
 
 
 
